@@ -1,8 +1,9 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import { COLORS } from '../../utils/colors';
 import { BodyText } from '../../styles/Texts';
 import { pxToRem } from '../../utils/pxToRem';
+import { notPrint, mobile } from '../../styles/Medias';
 
 export const Container = styled.article`
   &:not(:last-child) {
@@ -21,6 +22,13 @@ export const Header = styled.header`
   display: grid;
   grid-template-columns: auto 1fr;
   grid-column-gap: ${pxToRem(5)};
+
+  ${notPrint(
+    mobile(css`
+      grid-template-columns: auto;
+      margin-bottom: ${pxToRem(5)};
+    `),
+  )}
 `;
 
 export const CompanyName = styled(BodyText)`

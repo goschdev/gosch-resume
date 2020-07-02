@@ -10,21 +10,21 @@ export const Container = styled.header`
   grid-column-gap: ${pxToRem(5)};
   grid-template-columns: auto 1fr;
 
-  ${notPrint(css`
-    ${mobile(css`
+  ${notPrint(
+    mobile(css`
       grid-template-columns: 1fr;
-    `)}
-  `)}
+    `),
+  )}
 `;
 
 export const Photo = styled.img`
   max-width: ${pxToRem(110)};
 
-  ${notPrint(css`
-    ${mobile(css`
+  ${notPrint(
+    mobile(css`
       display: none;
-    `)}
-  `)}
+    `),
+  )}
 
   ${print(css`
     max-width: inherit;
