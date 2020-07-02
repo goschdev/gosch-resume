@@ -74,7 +74,7 @@ export function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt-BR`,
   meta: [],
   description: ``,
   title: ``,
