@@ -2,16 +2,17 @@ import styled from 'styled-components';
 
 import { COLORS } from '../../utils/colors';
 import { BodyText } from '../../styles/Texts';
+import { pxToRem } from '../../utils/pxToRem';
 
 export const Container = styled.article`
   &:not(:last-child) {
     &:after {
       content: '';
       display: block;
-      width: 45px;
-      height: 7px;
+      width: ${pxToRem(45)};
+      height: ${pxToRem(7)};
       background-color: ${COLORS.primary};
-      margin-top: 10px;
+      margin-top: ${pxToRem(10)};
     }
   }
 `;
@@ -19,7 +20,7 @@ export const Container = styled.article`
 export const Header = styled.header`
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-column-gap: 5px;
+  grid-column-gap: ${pxToRem(5)};
 `;
 
 export const CompanyName = styled(BodyText)`

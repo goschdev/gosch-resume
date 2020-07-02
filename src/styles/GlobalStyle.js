@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 
     ${print(css`
       min-height: 100;
+      font-size: 21.44px;
     `)}
   }
 

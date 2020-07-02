@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 
 import { print } from '../styles/Medias';
 import { COLORS } from '../utils/colors';
+import { pxToRem } from '../utils/pxToRem';
 
 export const PageBreak = styled.div`
   ${print(css`
@@ -10,7 +11,7 @@ export const PageBreak = styled.div`
     &:after {
       content: '';
       width: 100%;
-      height: 15px;
+      height: ${pxToRem(15)};
       display: block;
       background-color: ${COLORS.primary};
     }
