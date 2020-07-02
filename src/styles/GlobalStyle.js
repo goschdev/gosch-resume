@@ -3,6 +3,7 @@ import { createGlobalStyle, css } from 'styled-components';
 import { RobotoCondensed } from './Fonts';
 import { COLORS } from '../utils/colors';
 import { print } from './Medias';
+import { pxToRem } from '../utils/pxToRem';
 
 export const GlobalStyle = createGlobalStyle`
   ${RobotoCondensed}
@@ -18,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    padding-bottom: 20px;
+    padding-bottom: ${pxToRem(20)};
   }
 
   * {
