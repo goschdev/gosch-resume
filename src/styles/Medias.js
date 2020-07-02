@@ -39,3 +39,9 @@ export const print = (content) => css`
     ${content}
   }
 `;
+
+export const notPrint = (content) => css`
+  @media not print {
+    ${content}
+  }
+`;
