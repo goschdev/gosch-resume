@@ -11,7 +11,6 @@ export const GlobalStyle = createGlobalStyle`
   body, html {
     min-height: 100vh;
     background-color: ${COLORS.background};
-    font-size: 21.44px;
 
     ${print(css`
       min-height: 100;
