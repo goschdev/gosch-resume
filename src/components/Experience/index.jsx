@@ -18,7 +18,7 @@ export function Experience({
   return (
     <Container>
       <Header>
-        <CompanyName>{companyName}</CompanyName>
+        <CompanyName as="h4">{companyName}</CompanyName>
         <CompanyDescription>{companyDescription}</CompanyDescription>
       </Header>
       <Main>
