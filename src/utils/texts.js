@@ -11,9 +11,9 @@ export const TEXTS = {
       body: [
         ['Portfólio', 'https://gosch.io'],
         ['LinkedIn', 'https://www.linkedin.com/in/ricardogosch'],
-        ['GitHub', 'https://github.com/rgosch/'],
-        ['Twitter', 'https://twitter.com/gosch_dev'],
-        ['Twitch', 'https://twitch.tv/gosch_dev'],
+        ['GitHub', 'https://github.com/goschdev'],
+        ['Twitter', 'https://twitter.com/goschdev'],
+        ['Twitch', 'https://twitch.tv/goschdev'],
       ],
     },
     about: {
