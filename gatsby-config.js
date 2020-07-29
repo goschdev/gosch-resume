@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Ricardo Gosch - Currículo`,
+    title: `Gosch, o Desenvolvedor - Currículo`,
     description: `Desenvolvedor Front-end, streamer e defensor da democracia educacional.`,
     author: `@rgosch`,
   },
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ricardo Gosch`,
+        name: `Gosch`,
         short_name: `Gosch`,
         start_url: `/`,
         background_color: `#F2F2F2`,

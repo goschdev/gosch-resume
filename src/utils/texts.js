@@ -1,6 +1,6 @@
 export const TEXTS = {
-  title: 'Ricardo Gosch',
-  subtitle: 'Desenvolvedor Front-end',
+  title: 'Gosch, o Desenvolvedor',
+  subtitle: 'UX/UI Designer e Desenvolvedor Front-end',
   sections: {
     contact: {
       title: 'Contato',
@@ -46,21 +46,33 @@ export const TEXTS = {
       title: 'Tecnologias',
       body: [
         'React',
-        'VueJS',
-        'Acessibilidade',
         'Redux',
-        'VueX',
-        'SEO',
         'Gatsby',
+        'Styled Components',
+        'VueJS',
+        'VueX',
+        'Acessibilidade',
+        'TypeScript',
+        'Figma',
+        'Jest',
+        'Enzyme',
+        'SEO',
         'SASS',
         'WordPress',
-        'Styled Components',
+        'i18n',
         'Git',
       ],
     },
     experiences: {
       title: 'Experiências',
       body: [
+        {
+          companyName: 'Restfy',
+          companyDescription:
+            '(UX/UI Designer e Desenvolvedor Front-end) - Atualmente (07/2020)',
+          responsibilities:
+            'Liderando, prototipando e desenvolvendo aplicação de placas automotivas focando na experiência do usuário. Utilizando Figma, React, Redux, React Router, Styled Components, TypeScript, Jest, Enzyme, i18n (internacionalização) e git.',
+        },
         {
           companyName: 'RCA Digital',
           companyDescription: '(Desenvolvedor Front-end) - (08/2019 a 05/2020)',
