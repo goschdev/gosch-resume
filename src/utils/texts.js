@@ -10,7 +10,7 @@ export const TEXTS = {
       title: 'Links úteis',
       body: [
         ['Portfólio', 'https://gosch.io'],
-        ['LinkedIn', 'https://www.linkedin.com/in/ricardogosch'],
+        ['LinkedIn', 'https://www.linkedin.com/in/goschdev'],
         ['GitHub', 'https://github.com/goschdev'],
         ['Twitter', 'https://twitter.com/goschdev'],
         ['Twitch', 'https://twitch.tv/goschdev'],
