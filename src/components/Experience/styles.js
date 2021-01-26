@@ -1,9 +1,14 @@
 import styled, { css } from 'styled-components';
 
-import { COLORS } from '../../utils/colors';
-import { BodyText } from '../../styles/Texts';
-import { pxToRem } from '../../utils/pxToRem';
-import { notPrint, mobile } from '../../styles/Medias';
+import { COLORS } from '../../visual/colors';
+import { BodyText } from '../../visual/styles/Texts';
+import { pxToRem } from '../../logic/pxToRem';
+import {
+  notPrint,
+  mobile,
+  tabletDesktop,
+  print,
+} from '../../visual/styles/Medias';
 
 export const Container = styled.article`
   &:not(:last-child) {
@@ -19,9 +24,9 @@ export const Container = styled.article`
 `;
 
 export const Header = styled.header`
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-column-gap: ${pxToRem(5)};
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: ${pxToRem(4)};
 
   ${notPrint(
     mobile(css`
@@ -31,11 +36,37 @@ export const Header = styled.header`
   )}
 `;
 
-export const CompanyName = styled(BodyText)`
+export const Title = styled(BodyText)`
   font-weight: bold;
+
+  a {
+    color: inherit;
+  }
 `;
 
-export const CompanyDescription = styled(BodyText)``;
+export const TitleLink = styled.a`
+  ${print(css`
+    text-decoration: none;
+  `)}
+`;
+
+export const Subtitle = styled(BodyText)`
+  ${tabletDesktop(css`
+    :before {
+      content: '(';
+    }
+    :after {
+      content: ')';
+    }
+  `)}
+`;
+export const Period = styled(BodyText)`
+  ${tabletDesktop(css`
+    :before {
+      content: '- ';
+    }
+  `)}
+`;
 
 export const Main = styled.main``;
 

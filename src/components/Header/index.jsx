@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Container, Photo, Content } from './styles';
-import { Title, Subtitle } from '../../styles/Texts';
-import { TEXTS } from '../../utils/texts';
+import { Title, Subtitle } from '../../visual/styles/Texts';
+import { TEXTS } from '../../logic/texts';
 import photo from '../../images/gosch-photo.png';
 
 export function Header() {

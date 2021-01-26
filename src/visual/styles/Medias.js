@@ -1,6 +1,6 @@
 import { css } from 'styled-components';
 
-import { RESOLUTIONS } from '../utils/resolutions';
+import { RESOLUTIONS } from '../constants';
 
 export const mobile = (content) => css`
   @media print, (max-width: ${RESOLUTIONS.mobile.max}) {

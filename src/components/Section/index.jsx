@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { Container, Content } from './styles';
-import { SectionTitle } from '../../styles/Texts';
-import { Wrapper } from '../../styles/Wrapper';
+import { SectionTitle } from '../../visual/styles/Texts';
+import { Wrapper } from '../../visual/styles/Wrapper';
 
 export function Section({ title, children, breakPage }) {
   return (

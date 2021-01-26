@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Link, Row } from './styles';
 import { Section } from '../../Section';
-import { TEXTS } from '../../../utils/texts';
+import { TEXTS } from '../../../logic/texts';
 
 export function Links() {
   const { title, body } = TEXTS.sections.links;

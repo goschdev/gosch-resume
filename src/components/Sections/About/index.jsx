@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, BodyText } from './styles';
 import { Section } from '../../Section';
-import { TEXTS } from '../../../utils/texts';
+import { TEXTS } from '../../../logic/texts';
 
 export function About() {
   const { body, title } = TEXTS.sections.about;

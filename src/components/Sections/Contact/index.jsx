@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Container } from './styles';
 import { Section } from '../../Section';
-import { TEXTS } from '../../../utils/texts';
-import { BodyText } from '../../../styles/Texts';
+import { TEXTS } from '../../../logic/texts';
+import { BodyText } from '../../../visual/styles/Texts';
 
 export function Contact() {
   const { body, title } = TEXTS.sections.contact;

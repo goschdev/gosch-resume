@@ -1,9 +1,9 @@
 import { createGlobalStyle, css } from 'styled-components';
 
 import { RobotoCondensed } from './Fonts';
-import { COLORS } from '../utils/colors';
+import { COLORS } from '../colors';
 import { print } from './Medias';
-import { pxToRem } from '../utils/pxToRem';
+import { pxToRem } from '../../logic/pxToRem';
 
 export const GlobalStyle = createGlobalStyle`
   ${RobotoCondensed}

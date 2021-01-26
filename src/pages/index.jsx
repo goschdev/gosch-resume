@@ -8,7 +8,7 @@ import { About } from '../components/Sections/About';
 import { Technologies } from '../components/Sections/Technologies';
 import { Experiences } from '../components/Sections/Experiences';
 import { Courses } from '../components/Sections/Courses';
-import { PageBreak } from '../styles/PageBreak';
+import { PageBreak } from '../visual/styles/PageBreak';
 
 const IndexPage = () => (
   <>
