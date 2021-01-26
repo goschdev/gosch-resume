@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
-import { BodyText } from '../../../styles/Texts';
-import { tabletDesktop } from '../../../styles/Medias';
-import { pxToRem } from '../../../utils/pxToRem';
+import { BodyText } from '../../../visual/styles/Texts';
+import { tabletDesktop } from '../../../visual/styles/Medias';
+import { pxToRem } from '../../../logic/pxToRem';
 
 export const Container = styled.ul`
   display: grid;

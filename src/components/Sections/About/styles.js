@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import { BodyText as BodyTextBase } from '../../../styles/Texts';
-import { pxToRem } from '../../../utils/pxToRem';
+
+import { BodyText as BodyTextBase } from '../../../visual/styles/Texts';
+import { pxToRem } from '../../../logic/pxToRem';
 
 export const Container = styled.div``;
 

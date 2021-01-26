@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
-import { COLORS } from '../../utils/colors';
-import { print, mobile, notPrint } from '../../styles/Medias';
-import { pxToRem } from '../../utils/pxToRem';
+import { COLORS } from '../../visual/colors';
+import { print, mobile, notPrint } from '../../visual/styles/Medias';
+import { pxToRem } from '../../logic/pxToRem';
 
 export const Container = styled.header`
   display: grid;

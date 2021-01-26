@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
-import { COLORS } from '../utils/colors';
-import { pxToRem } from '../utils/pxToRem';
+import { COLORS } from '../colors';
+import { pxToRem } from '../../logic/pxToRem';
 import { tabletDesktop, mobile } from './Medias';
 
 export const Title = styled.h1`

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { GlobalStyle } from '../../styles/GlobalStyle';
+import { GlobalStyle } from '../../visual/styles/GlobalStyle';
 import Header from '../Header';
 
 export function Layout({ children }) {

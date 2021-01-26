@@ -1,6 +1,9 @@
 export const TEXTS = {
   title: 'Gosch, o Desenvolvedor',
   subtitle: 'UX/UI Designer e Desenvolvedor Front-end',
+  company: 'Empresa/Instituição',
+  role: 'Responsabilidade',
+  period: 'Período',
   sections: {
     contact: {
       title: 'Contato',
@@ -67,39 +70,69 @@ export const TEXTS = {
       title: 'Experiências',
       body: [
         {
-          companyName: 'Restfy',
-          companyDescription:
-            '(UX/UI Designer e Desenvolvedor Front-end) - Atualmente (07/2020)',
+          company: {
+            name: 'Trinca',
+            url: 'https://trin.ca',
+          },
+          role: 'Desenvolvedor Front-end',
+          period: '01/2020',
+        },
+        {
+          company: {
+            name: 'Restfy',
+            url: 'https://www.restfy.com.br/',
+          },
+          role: 'UX/UI Designer e Desenvolvedor Front-end',
+          period: '07/2020 a 12/2020',
           responsibilities:
             'Liderando, prototipando e desenvolvendo aplicação de placas automotivas focando na experiência do usuário. Utilizando Figma, React, Redux, React Router, Styled Components, TypeScript, Jest, Enzyme, i18n (internacionalização) e git.',
         },
         {
-          companyName: 'RCA Digital',
-          companyDescription: '(Desenvolvedor Front-end) - (08/2019 a 05/2020)',
+          company: {
+            name: 'RCA Digital',
+          },
+          role: 'Desenvolvedor Front-end',
+          period: '08/2019 a 05/2020',
           responsibilities:
             'Fazendo outsourcing de forma remota para duas empresas: MRV e Guarida. Usando React, React Native, Redux, Saga-duck e algumas outras tecnologias.',
         },
         {
-          companyName: 'Pmweb Marketing Cloud Services',
-          companyDescription: '(Desenvolvedor Front-end) - (04/2018 a 08/2019)',
+          company: {
+            name: 'Pmweb Marketing Cloud Services',
+            url: 'https://www.pmweb.com.br/',
+          },
+          role: 'Desenvolvedor Front-end',
+          period: '04/2018 a 08/2019',
           responsibilities:
             'Desenvolvimento Front-end com a linguagem de alto nível C#, juntamente com .net, Javascript, Bootstrap, Vue, Vuex, React, Redux, Highcharts e uma série de outras tecnologias.',
         },
         {
-          companyName: 'Brava Digital',
-          companyDescription: '(Desenvolvedor Web) - (03/2018 a 07/2018)',
+          company: {
+            name: 'Brava Digital',
+            url: '',
+          },
+          role: 'Desenvolvedor Web',
+          period: '03/2018 a 07/2018',
           responsibilities:
             'Consultor recorrente utilizando WordPress como base e seguindo algumas tendências, como: Gulp, Sass, Stylus, jQuery, dentre outras. Além do versionamento do código usando Git.',
         },
         {
-          companyName: 'Reweb',
-          companyDescription: '(Desenvolvedor Front-end) - (09/2017 a 03/2018)',
+          company: {
+            name: 'Reweb',
+            url: 'https://reweb.com.br/',
+          },
+          role: 'Desenvolvedor Front-end',
+          period: '09/2017 a 03/2018',
           responsibilities:
             'Desenvolvimento Front-end com as mais recentes tecnologias do mercado, como Sass, Gulp, Vue.js, Git, Gulp e Twig. Utilizando como ambiente de desenvolvimento o sistema operacional Linux.',
         },
         {
-          companyName: 'Ondaweb',
-          companyDescription: '(Desenvolvedor Web) - (02/2017 a 09/2017)',
+          company: {
+            name: 'Ondaweb',
+            url: 'https://ondaweb.com.br/',
+          },
+          role: 'Desenvolvedor Web',
+          period: '02/2017 a 09/2017',
           responsibilities:
             'Desenvolvimento utilizando o CMS WordPress, pré-processadores Sass e Stylus, versionamento Git e automatizador de tarefas Gulp.',
         },
@@ -109,14 +142,19 @@ export const TEXTS = {
       title: 'Cursos',
       body: [
         {
-          companyName: 'Técnico em Informática',
-          companyDescription: '(06/2015 a 12/2016)',
-          responsibilities: 'Escolas e Faculdades QI. Viamão, RS.',
+          company: {
+            name: 'Escolas e Faculdades QI',
+            url: 'https://qi.edu.br/',
+          },
+          role: 'Técnico em Informática',
+          period: '06/2015 a 12/2016',
         },
         {
-          companyName: 'Informática / Rotinas Administrativas',
-          companyDescription: '(04/2014 a 06/2015)',
-          responsibilities: 'Novo Lar. Viamão, RS.',
+          company: {
+            name: 'Novo Lar',
+          },
+          role: 'Informática / Rotinas Administrativas',
+          period: '04/2014 a 06/2015',
         },
       ],
     },

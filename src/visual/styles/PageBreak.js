@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
 import { print } from '../styles/Medias';
-import { COLORS } from '../utils/colors';
-import { pxToRem } from '../utils/pxToRem';
+import { COLORS } from '../colors';
+import { pxToRem } from '../../logic/pxToRem';
 
 export const PageBreak = styled.div`
   ${print(css`

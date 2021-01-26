@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import { pxToRem } from '../../../utils/pxToRem';
+
+import { pxToRem } from '../../../logic/pxToRem';
 
 export const Container = styled.div`
   display: grid;

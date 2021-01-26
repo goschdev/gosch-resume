@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { BodyText } from '../../../styles/Texts';
-import { pxToRem } from '../../../utils/pxToRem';
+import { BodyText } from '../../../visual/styles/Texts';
+import { pxToRem } from '../../../logic/pxToRem';
 
 export const Container = styled.ul`
   display: flex;
